@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlRoot">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>King of Java Furniture Industries | Crafting Nature into Timeless Furniture</title>
+<meta name="description" content="PT King of Java Furniture Industries crafts premium solid wood furniture in Indonesia for residential, hospitality, commercial and export markets. Request a quotation today.">
+<meta name="keywords" content="Indonesian furniture manufacturer, solid wood furniture, export furniture, OEM furniture, hospitality furniture, teak furniture Indonesia, custom furniture manufacturing">
+<meta property="og:title" content="King of Java Furniture Industries — Crafting Nature into Timeless Furniture">
+<meta property="og:description" content="Premium handcrafted solid wood furniture, proudly made in Indonesia for residential, hospitality, commercial and export markets.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PT King of Java Furniture Industries",
+  "description": "Premium handcrafted solid wood furniture manufacturer in Indonesia, serving residential, hospitality, commercial and export markets.",
+  "email": "kingjavaindustries@gmail.com",
+  "sameAs": []
+}
+</script>
+<style>
+:root{
+  --primary:#4B2E20;
+  --secondary:#6F4E37;
+  --accent:#A67C52;
+  --bg:#F8F6F2;
+  --bg-dark:#1E1E1E;
+  --text:#2A2A2A;
+  --white:#FFFFFF;
+  --grain: 0 1px 2px rgba(75,46,32,0.08);
+  --shadow-soft: 0 10px 40px -12px rgba(43,26,17,0.18);
+  --shadow-lift: 0 24px 60px -20px rgba(43,26,17,0.35);
+  --radius: 20px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+html.dark{--bg:var(--bg-dark); --text:#EFE9E2;}
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  transition:background .4s ease, color .4s ease;
+  overflow-x:hidden;
+}
+h1,h2,h3,h4,.font-display{font-family:'Playfair Display',serif;}
+a{text-decoration:none; color:inherit;}
+button{font-family:inherit;cursor:pointer;}
+::selection{background:var(--accent); color:var(--white);}
+
+.container{max-width:1280px; margin:0 auto; padding:0 24px;}
+@media(min-width:768px){.container{padding:0 48px;}}
+
+/* ---------- Preloader ---------- */
+#preloader{position:fixed; inset:0; background:var(--primary); z-index:9999; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:18px; transition:opacity .8s ease, visibility .8s ease;}
+#preloader img{width:64px; height:64px; object-fit:contain; animation:pulseLogo 1.6s ease-in-out infinite;}
+#preloader .bar{width:180px; height:2px; background:rgba(255,255,255,.2); position:relative; overflow:hidden; border-radius:2px;}
+#preloader .bar span{position:absolute; left:-40%; top:0; height:100%; width:40%; background:var(--accent); animation:loadbar 1.1s ease-in-out infinite;}
+@keyframes loadbar{0%{left:-40%;}100%{left:100%;}}
+@keyframes pulseLogo{0%,100%{transform:scale(1); opacity:1;}50%{transform:scale(1.08); opacity:.85;}}
+#preloader.hide{opacity:0; visibility:hidden;}
+
+/* ---------- Nav ---------- */
+header{position:fixed; top:0; left:0; right:0; z-index:500; transition:all .35s ease; background:transparent; padding:22px 0;}
+header.scrolled{background:color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter:blur(14px); box-shadow:0 1px 0 rgba(75,46,32,.08); padding:12px 0;}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; gap:20px;}
+.brand{display:flex; align-items:center; gap:10px;}
+.brand img{height:42px; width:42px; object-fit:contain; transition:height .35s ease;}
+header.scrolled .brand img{height:34px; width:34px;}
+.brand-word{font-family:'Playfair Display',serif; font-weight:700; font-size:15px; letter-spacing:.06em; line-height:1.15;}
+.brand-word small{display:block; font-family:'Inter',sans-serif; font-weight:600; font-size:9px; letter-spacing:.22em; color:var(--accent); text-transform:uppercase; margin-top:2px;}
+.hero-scheme .brand-word, .hero-scheme .brand-word small{color:var(--white);}
+header.scrolled .brand-word, header.scrolled .brand-word small{color:var(--text);}
+header.scrolled.dark-hero-scrolled .brand-word{color:var(--text);}
+
+nav.main-links{display:none; align-items:center; gap:34px;}
+@media(min-width:1080px){nav.main-links{display:flex;}}
+nav.main-links a{font-size:13px; font-weight:600; letter-spacing:.03em; position:relative; padding:6px 0; color:inherit;}
+nav.main-links a::after{content:''; position:absolute; left:0; bottom:0; width:0; height:1.5px; background:var(--accent); transition:width .3s ease;}
+nav.main-links a:hover::after{width:100%;}
+.hero-scheme nav.main-links a{color:var(--white);}
+header.scrolled nav.main-links a{color:var(--text);}
+
+.nav-actions{display:flex; align-items:center; gap:14px;}
+.icon-btn{width:36px; height:36px; border-radius:50%; border:1px solid rgba(75,46,32,.2); display:flex; align-items:center; justify-content:center; background:transparent; color:inherit; font-size:12px; font-weight:700; transition:all .25s ease;}
+.hero-scheme .icon-btn{border-color:rgba(255,255,255,.35); color:var(--white);}
+header.scrolled .icon-btn{border-color:rgba(75,46,32,.25); color:var(--text);}
+.icon-btn:hover{background:var(--accent); color:var(--white); border-color:var(--accent);}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:13px 26px; border-radius:100px; font-size:12.5px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; transition:all .3s ease; border:1px solid transparent; white-space:nowrap;}
+.btn-primary{background:var(--accent); color:var(--white);}
+.btn-primary:hover{background:var(--primary); transform:translateY(-2px); box-shadow:var(--shadow-soft);}
+.btn-outline{border-color:currentColor;}
+.hero-scheme .btn-outline{color:var(--white); border-color:rgba(255,255,255,.55);}
+.btn-outline:hover{background:var(--white); color:var(--primary);}
+.btn-ghost{background:rgba(75,46,32,.06); color:var(--primary);}
+.btn-ghost:hover{background:var(--primary); color:var(--white);}
+
+.hamburger{display:flex; flex-direction:column; gap:5px; width:22px; background:none; border:none;}
+@media(min-width:1080px){.hamburger{display:none;}}
+.hamburger span{height:2px; width:100%; background:currentColor; border-radius:2px;}
+.hero-scheme .hamburger span{background:var(--white);}
+header.scrolled .hamburger span{background:var(--text);}
+
+#mobileMenu{position:fixed; inset:0; background:var(--primary); z-index:600; display:flex; flex-direction:column; padding:28px 28px 40px; transform:translateY(-100%); transition:transform .45s cubic-bezier(.6,0,.2,1);}
+#mobileMenu.open{transform:translateY(0);}
+#mobileMenu a{color:var(--white); font-family:'Playfair Display',serif; font-size:22px; padding:14px 0; border-bottom:1px solid rgba(255,255,255,.12);}
+#mobileMenu .close-mobile{align-self:flex-end; background:none; border:none; color:var(--white); font-size:26px;}
+
+/* ---------- Hero ---------- */
+.hero{position:relative; min-height:100vh; display:flex; align-items:flex-end; color:var(--white); overflow:hidden;}
+.hero-bg{position:absolute; inset:0; z-index:0;}
+.hero-bg img{width:100%; height:100%; object-fit:cover; transform:scale(1.08);}
+.hero-bg::after{content:''; position:absolute; inset:0; background:linear-gradient(180deg, rgba(20,13,9,.55) 0%, rgba(20,13,9,.35) 35%, rgba(20,13,9,.85) 100%);}
+.hero-content{position:relative; z-index:2; padding-bottom:110px; width:100%;}
+.hero-eyebrow{display:inline-flex; align-items:center; gap:10px; font-size:11px; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:var(--accent); margin-bottom:22px;}
+.hero-eyebrow::before{content:''; width:34px; height:1px; background:var(--accent);}
+.hero h1{font-size:clamp(38px,6.4vw,84px); line-height:1.02; font-weight:700; max-width:920px; margin:0 0 22px;}
+.hero h1 em{font-style:italic; color:var(--accent);}
+.hero p.sub{max-width:560px; font-size:16px; line-height:1.7; color:rgba(255,255,255,.82); margin-bottom:36px; font-weight:300;}
+.hero-ctas{display:flex; flex-wrap:wrap; gap:16px;}
+.scroll-cue{position:absolute; right:48px; bottom:40px; z-index:2; display:none; flex-direction:column; align-items:center; gap:10px; color:rgba(255,255,255,.7); font-size:10px; letter-spacing:.25em; text-transform:uppercase;}
+@media(min-width:768px){.scroll-cue{display:flex;}}
+.scroll-cue .line{width:1px; height:46px; background:rgba(255,255,255,.35); position:relative; overflow:hidden;}
+.scroll-cue .line::after{content:''; position:absolute; top:-100%; left:0; width:100%; height:100%; background:var(--accent); animation:scrollline 2s ease-in-out infinite;}
+@keyframes scrollline{0%{top:-100%;}50%{top:0;}100%{top:100%;}}
+
+/* ---------- Stats ---------- */
+.stats-strip{background:var(--primary); color:var(--white); padding:52px 0;}
+.stats-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:36px; text-align:center;}
+@media(min-width:768px){.stats-grid{grid-template-columns:repeat(4,1fr);}}
+.stat-num{font-family:'Playfair Display',serif; font-size:clamp(30px,4vw,48px); font-weight:700; color:var(--accent);}
+.stat-label{font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.75); margin-top:6px;}
+
+/* ---------- Sections general ---------- */
+section{padding:110px 0;}
+.section-tight{padding:90px 0;}
+.eyebrow{display:flex; align-items:center; gap:12px; font-size:11px; font-weight:700; letter-spacing:.28em; text-transform:uppercase; color:var(--accent); margin-bottom:18px;}
+.eyebrow::before{content:''; width:34px; height:1px; background:var(--accent);}
+.section-title{font-size:clamp(30px,4vw,50px); font-weight:700; line-height:1.12; max-width:680px;}
+.section-desc{font-size:15.5px; line-height:1.75; color:color-mix(in srgb, var(--text) 72%, transparent); max-width:560px; margin-top:18px; font-weight:300;}
+
+.reveal{opacity:0; transform:translateY(36px); transition:opacity .9s cubic-bezier(.2,.6,.2,1), transform .9s cubic-bezier(.2,.6,.2,1);}
+.reveal.in{opacity:1; transform:translateY(0);}
+.reveal-delay-1{transition-delay:.08s;} .reveal-delay-2{transition-delay:.16s;} .reveal-delay-3{transition-delay:.24s;} .reveal-delay-4{transition-delay:.32s;}
+
+/* ---------- Why choose us ---------- */
+.why-grid{display:grid; grid-template-columns:1fr; gap:2px; background:rgba(75,46,32,.12); border-radius:var(--radius); overflow:hidden; margin-top:56px;}
+@media(min-width:640px){.why-grid{grid-template-columns:1fr 1fr;}}
+@media(min-width:1080px){.why-grid{grid-template-columns:repeat(4,1fr);}}
+.why-card{background:var(--bg); padding:34px 26px; transition:all .4s ease; position:relative;}
+.why-card:hover{background:var(--primary); color:var(--white); transform:translateY(-4px);}
+.why-icon{width:44px; height:44px; border-radius:12px; background:rgba(166,124,82,.15); display:flex; align-items:center; justify-content:center; margin-bottom:20px; font-size:19px; color:var(--accent); transition:all .4s ease;}
+.why-card:hover .why-icon{background:var(--accent); color:var(--white);}
+.why-card h4{font-size:16px; margin:0 0 8px; font-weight:600; font-family:'Inter',sans-serif;}
+.why-card p{font-size:13px; line-height:1.6; color:color-mix(in srgb, var(--text) 60%, transparent); margin:0;}
+.why-card:hover p{color:rgba(255,255,255,.75);}
+
+/* ---------- About ---------- */
+.about-grid{display:grid; grid-template-columns:1fr; gap:56px; align-items:center;}
+@media(min-width:960px){.about-grid{grid-template-columns:1fr 1fr;}}
+.about-img-wrap{position:relative; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-soft);}
+.about-img-wrap img{width:100%; display:block; height:100%; object-fit:cover; transition:transform .8s ease;}
+.about-img-wrap:hover img{transform:scale(1.06);}
+.float-card{position:absolute; bottom:20px; left:20px; right:20px; background:rgba(255,255,255,.16); backdrop-filter:blur(16px); border:1px solid rgba(255,255,255,.35); border-radius:16px; padding:20px 22px; color:var(--white);}
+.float-card .num{font-family:'Playfair Display',serif; font-size:26px; font-weight:700;}
+.float-card .lbl{font-size:11px; letter-spacing:.1em; text-transform:uppercase; opacity:.85;}
+
+.values-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:30px;}
+@media(min-width:640px){.values-grid{grid-template-columns:repeat(4,1fr);}}
+.value-item{padding:18px 0; border-top:1px solid rgba(75,46,32,.15);}
+.value-item h5{font-family:'Playfair Display',serif; font-size:16px; margin:0 0 6px;}
+.value-item p{font-size:12.5px; color:color-mix(in srgb, var(--text) 60%, transparent); margin:0; line-height:1.5;}
+
+.philosophy{background:var(--primary); color:var(--white); padding:100px 0; margin-top:0; position:relative; overflow:hidden;}
+.philosophy blockquote{font-family:'Playfair Display',serif; font-style:italic; font-size:clamp(22px,3.2vw,38px); max-width:840px; margin:0 auto; text-align:center; line-height:1.5;}
+.philosophy cite{display:block; margin-top:26px; font-style:normal; font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); text-align:center;}
+
+/* timeline */
+.timeline{position:relative; margin-top:60px; padding-left:26px; border-left:1px solid rgba(75,46,32,.2);}
+.tl-item{position:relative; padding-bottom:40px;}
+.tl-item:last-child{padding-bottom:0;}
+.tl-item::before{content:''; position:absolute; left:-31px; top:2px; width:11px; height:11px; border-radius:50%; background:var(--accent); border:3px solid var(--bg);}
+.tl-year{font-family:'Playfair Display',serif; font-weight:700; color:var(--accent); font-size:18px;}
+.tl-item h5{margin:6px 0 6px; font-size:16px;}
+.tl-item p{margin:0; font-size:13.5px; color:color-mix(in srgb, var(--text) 62%, transparent); max-width:520px; line-height:1.6;}
+
+/* ---------- Products ---------- */
+.product-grid{display:grid; grid-template-columns:1fr; gap:28px; margin-top:56px;}
+@media(min-width:640px){.product-grid{grid-template-columns:1fr 1fr;}}
+.product-card{border-radius:var(--radius); overflow:hidden; background:var(--white); box-shadow:0 4px 20px -8px rgba(43,26,17,.12); transition:all .45s cubic-bezier(.2,.6,.2,1);}
+html.dark .product-card{background:#262220;}
+.product-card:hover{transform:translateY(-8px); box-shadow:var(--shadow-lift);}
+.product-media{position:relative; height:280px; overflow:hidden;}
+.product-media img{width:100%; height:100%; object-fit:cover; transition:transform .8s ease;}
+.product-card:hover .product-media img{transform:scale(1.09);}
+.product-tag{position:absolute; top:16px; left:16px; background:rgba(255,255,255,.9); color:var(--primary); font-size:10px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; padding:6px 12px; border-radius:100px;}
+.product-body{padding:26px 26px 28px;}
+.product-body h3{font-size:20px; margin:0 0 8px;}
+.product-body p.desc{font-size:13.5px; color:color-mix(in srgb, var(--text) 62%, transparent); line-height:1.6; margin:0 0 16px;}
+.app-tags{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px;}
+.app-tag{font-size:10.5px; font-weight:600; letter-spacing:.03em; padding:6px 12px; border-radius:100px; background:rgba(166,124,82,.12); color:var(--secondary);}
+html.dark .app-tag{color:var(--accent);}
+
+/* modal */
+.modal-overlay{position:fixed; inset:0; background:rgba(20,13,9,.72); backdrop-filter:blur(4px); z-index:800; display:none; align-items:center; justify-content:center; padding:20px;}
+.modal-overlay.open{display:flex;}
+.modal-box{background:var(--bg); max-width:880px; width:100%; max-height:88vh; overflow-y:auto; border-radius:24px; position:relative; box-shadow:var(--shadow-lift);}
+.modal-close{position:absolute; top:18px; right:18px; width:36px; height:36px; border-radius:50%; background:rgba(75,46,32,.08); border:none; font-size:16px; z-index:2;}
+.modal-grid{display:grid; grid-template-columns:1fr; gap:0;}
+@media(min-width:720px){.modal-grid{grid-template-columns:1fr 1fr;}}
+.modal-grid img{width:100%; height:100%; min-height:260px; object-fit:cover; display:block;}
+.modal-content{padding:36px;}
+.spec-row{display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid rgba(75,46,32,.12); font-size:13.5px;}
+.spec-row span:first-child{color:color-mix(in srgb, var(--text) 55%, transparent);}
+.spec-row span:last-child{font-weight:600;}
+
+/* ---------- Custom manufacturing ---------- */
+.workflow{display:grid; grid-template-columns:1fr; gap:0; margin-top:56px; counter-reset:step;}
+@media(min-width:900px){.workflow{grid-template-columns:repeat(7,1fr); gap:14px;}}
+.wf-step{padding:22px 16px 0; border-top:2px solid rgba(75,46,32,.15); position:relative; margin-bottom:26px;}
+@media(min-width:900px){.wf-step{margin-bottom:0;}}
+.wf-step::before{counter-increment:step; content:counter(step, decimal-leading-zero); position:absolute; top:-13px; left:0; background:var(--bg); padding-right:10px; font-family:'Playfair Display',serif; font-weight:700; font-size:15px; color:var(--accent);}
+.wf-step h5{font-size:14.5px; margin:6px 0 6px;}
+.wf-step p{font-size:12px; line-height:1.55; color:color-mix(in srgb, var(--text) 58%, transparent); margin:0;}
+
+.oem-split{display:grid; grid-template-columns:1fr; gap:40px; margin-top:20px;}
+@media(min-width:960px){.oem-split{grid-template-columns:1.1fr 1fr;}}
+.oem-list{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:26px;}
+.oem-list div{padding:14px 16px; border-radius:12px; background:rgba(166,124,82,.08); font-size:13px; font-weight:600; display:flex; align-items:center; gap:10px;}
+.oem-list div::before{content:'✓'; color:var(--accent); font-weight:800;}
+
+/* ---------- Process timeline (rings) ---------- */
+.ring-row{display:grid; grid-template-columns:1fr; gap:0; margin-top:64px;}
+@media(min-width:860px){.ring-row{grid-template-columns:repeat(9,1fr); gap:0;}}
+.ring-item{text-align:center; padding:0 8px 34px; position:relative;}
+@media(min-width:860px){.ring-item{padding-bottom:0;}
+  .ring-item:not(:last-child)::after{content:''; position:absolute; top:34px; right:-4px; width:calc(100% - 20px); height:1px; background:repeating-linear-gradient(90deg, rgba(75,46,32,.35) 0 6px, transparent 6px 12px); left:56%;}
+}
+.ring{width:68px; height:68px; border-radius:50%; margin:0 auto 16px; display:flex; align-items:center; justify-content:center; background:var(--white); border:2px solid var(--accent); position:relative; font-family:'Playfair Display',serif; font-weight:700; color:var(--primary); font-size:15px;}
+html.dark .ring{background:#262220;}
+.ring::before{content:''; position:absolute; inset:9px; border-radius:50%; border:1px solid rgba(166,124,82,.5);}
+.ring-item h5{font-size:13px; margin:0 0 6px;}
+.ring-item p{font-size:11.5px; line-height:1.5; color:color-mix(in srgb, var(--text) 58%, transparent); margin:0; max-width:150px; margin-inline:auto;}
+
+/* ---------- Industries ---------- */
+.industry-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:56px;}
+@media(min-width:768px){.industry-grid{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:1080px){.industry-grid{grid-template-columns:repeat(5,1fr);}}
+.industry-card{position:relative; border-radius:16px; overflow:hidden; aspect-ratio:1/1.05; background:var(--primary); display:flex; align-items:flex-end; padding:16px; color:var(--white); isolation:isolate;}
+.industry-card::before{content:''; position:absolute; inset:0; background:linear-gradient(180deg, rgba(75,46,32,.15), rgba(20,13,9,.85)); z-index:-1;}
+.industry-card span{font-size:13px; font-weight:600; font-family:'Playfair Display',serif;}
+.industry-card:hover{transform:scale(1.03);}
+.industry-card{transition:transform .35s ease;}
+
+/* ---------- Gallery ---------- */
+.filter-row{display:flex; flex-wrap:wrap; gap:10px; margin-top:40px;}
+.filter-btn{padding:9px 18px; border-radius:100px; border:1px solid rgba(75,46,32,.2); font-size:12px; font-weight:600; background:transparent; color:inherit;}
+.filter-btn.active{background:var(--primary); color:var(--white); border-color:var(--primary);}
+.masonry{columns:2; column-gap:16px; margin-top:32px;}
+@media(min-width:768px){.masonry{columns:3;}}
+.masonry-item{break-inside:avoid; margin-bottom:16px; border-radius:16px; overflow:hidden; position:relative; cursor:pointer;}
+.masonry-item img{width:100%; display:block; transition:transform .6s ease, filter .4s ease;}
+.masonry-item:hover img{transform:scale(1.08);}
+.masonry-item .cap{position:absolute; inset:auto 0 0 0; padding:14px; background:linear-gradient(0deg, rgba(20,13,9,.75), transparent); color:var(--white); font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; opacity:0; transition:opacity .35s ease;}
+.masonry-item:hover .cap{opacity:1;}
+.masonry-item.hidden-item{display:none;}
+
+/* ---------- Blog ---------- */
+.blog-grid{display:grid; grid-template-columns:1fr; gap:24px; margin-top:56px;}
+@media(min-width:768px){.blog-grid{grid-template-columns:repeat(3,1fr);}}
+.blog-card{background:var(--white); border-radius:18px; overflow:hidden; box-shadow:0 4px 18px -10px rgba(43,26,17,.15); transition:transform .35s ease;}
+html.dark .blog-card{background:#262220;}
+.blog-card:hover{transform:translateY(-6px);}
+.blog-media{height:150px; background:linear-gradient(135deg, var(--secondary), var(--primary)); display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,.7); font-size:11px; letter-spacing:.15em; text-transform:uppercase;}
+.blog-body{padding:22px 22px 26px;}
+.blog-cat{font-size:10.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--accent);}
+.blog-body h4{font-size:16.5px; margin:10px 0 8px;}
+.blog-body p{font-size:12.5px; color:color-mix(in srgb, var(--text) 58%, transparent); margin:0; line-height:1.55;}
+
+/* ---------- FAQ ---------- */
+.faq-item{border-bottom:1px solid rgba(75,46,32,.15);}
+.faq-q{width:100%; text-align:left; background:none; border:none; padding:22px 0; display:flex; justify-content:space-between; align-items:center; font-size:15.5px; font-weight:600; color:inherit; font-family:'Playfair Display',serif;}
+.faq-q .plus{font-size:20px; color:var(--accent); transition:transform .3s ease; font-weight:300;}
+.faq-item.open .faq-q .plus{transform:rotate(45deg);}
+.faq-a{max-height:0; overflow:hidden; transition:max-height .4s ease;}
+.faq-a p{margin:0 0 22px; font-size:13.5px; line-height:1.7; color:color-mix(in srgb, var(--text) 62%, transparent); max-width:640px;}
+
+/* ---------- CTA banner ---------- */
+.cta-banner{background:linear-gradient(120deg, var(--primary), var(--secondary)); color:var(--white); border-radius:28px; padding:64px 40px; text-align:center; position:relative; overflow:hidden;}
+.cta-banner h2{font-size:clamp(26px,3.6vw,42px); max-width:680px; margin:0 auto 16px;}
+.cta-banner p{max-width:560px; margin:0 auto 32px; font-size:14.5px; color:rgba(255,255,255,.82); font-weight:300; line-height:1.7;}
+.cta-btns{display:flex; flex-wrap:wrap; gap:14px; justify-content:center;}
+
+/* ---------- Contact ---------- */
+.contact-grid{display:grid; grid-template-columns:1fr; gap:44px; margin-top:56px;}
+@media(min-width:960px){.contact-grid{grid-template-columns:0.85fr 1.15fr;}}
+.contact-info-card{background:var(--primary); color:var(--white); border-radius:var(--radius); padding:36px 32px;}
+.contact-row{display:flex; gap:14px; padding:16px 0; border-bottom:1px solid rgba(255,255,255,.14);}
+.contact-row:last-of-type{border-bottom:none;}
+.contact-row .ico{width:36px; height:36px; border-radius:50%; background:rgba(166,124,82,.25); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:14px;}
+.contact-row h6{margin:0 0 3px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent);}
+.contact-row p, .contact-row a{margin:0; font-size:14px; color:rgba(255,255,255,.92); display:block;}
+.map-placeholder{margin-top:22px; border-radius:14px; height:160px; background:repeating-linear-gradient(135deg, rgba(255,255,255,.06) 0 10px, transparent 10px 20px); display:flex; align-items:center; justify-content:center; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.55); border:1px dashed rgba(255,255,255,.25);}
+
+.form-grid{display:grid; grid-template-columns:1fr; gap:18px;}
+@media(min-width:640px){.form-grid{grid-template-columns:1fr 1fr;}}
+.field{display:flex; flex-direction:column; gap:8px;}
+.field.full{grid-column:1/-1;}
+.field label{font-size:11.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:color-mix(in srgb, var(--text) 70%, transparent);}
+.field input, .field select, .field textarea{padding:13px 16px; border-radius:12px; border:1px solid rgba(75,46,32,.2); background:var(--white); font-family:'Inter',sans-serif; font-size:14px; color:var(--text); outline:none; transition:border-color .25s ease;}
+html.dark .field input, html.dark .field select, html.dark .field textarea{background:#2b2724; color:var(--text); border-color:rgba(255,255,255,.15);}
+.field input:focus, .field select:focus, .field textarea:focus{border-color:var(--accent);}
+.form-actions{display:flex; flex-wrap:wrap; gap:14px; margin-top:8px;}
+
+/* ---------- Footer ---------- */
+footer{background:#1E1A17; color:rgba(255,255,255,.75); padding:80px 0 30px;}
+.footer-grid{display:grid; grid-template-columns:1fr; gap:44px;}
+@media(min-width:768px){.footer-grid{grid-template-columns:1.3fr 1fr 1fr 1.1fr;}}
+footer h6{color:var(--white); font-size:13px; letter-spacing:.08em; text-transform:uppercase; margin:0 0 18px;}
+footer ul{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:11px;}
+footer ul a{font-size:13.5px; transition:color .2s ease;}
+footer ul a:hover{color:var(--accent);}
+.footer-brand p{font-size:13.5px; line-height:1.7; max-width:280px; color:rgba(255,255,255,.6);}
+.social-row{display:flex; gap:10px; margin-top:18px;}
+.social-row a{width:34px; height:34px; border-radius:50%; border:1px solid rgba(255,255,255,.2); display:flex; align-items:center; justify-content:center; font-size:12px;}
+.social-row a:hover{background:var(--accent); border-color:var(--accent);}
+.newsletter-form{display:flex; gap:0; margin-top:8px; border:1px solid rgba(255,255,255,.2); border-radius:100px; overflow:hidden;}
+.newsletter-form input{flex:1; background:none; border:none; padding:12px 16px; color:var(--white); font-size:13px; outline:none;}
+.newsletter-form button{background:var(--accent); color:var(--white); border:none; padding:0 18px; font-size:12px; font-weight:700;}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12); margin-top:56px; padding-top:24px; display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:center; font-size:12px; color:rgba(255,255,255,.5);}
+.footer-bottom .legal-links{display:flex; gap:20px;}
+
+/* ---------- Floating elements ---------- */
+#waFloat{position:fixed; right:24px; bottom:24px; z-index:400; display:flex; align-items:center; gap:0;}
+#waBtn{width:58px; height:58px; border-radius:50%; background:#25D366; display:flex; align-items:center; justify-content:center; color:#fff; font-size:26px; box-shadow:0 10px 30px -8px rgba(0,0,0,.4); position:relative; border:none;}
+#waBtn::after{content:''; position:absolute; inset:0; border-radius:50%; border:2px solid #25D366; animation:wapulse 3s ease-out infinite;}
+@keyframes wapulse{0%{transform:scale(1); opacity:.7;}100%{transform:scale(1.9); opacity:0;}}
+#waTooltip{position:absolute; right:70px; bottom:14px; background:var(--primary); color:#fff; padding:10px 16px; border-radius:10px; font-size:12.5px; font-weight:600; white-space:nowrap; opacity:0; transform:translateX(8px); transition:all .3s ease; pointer-events:none;}
+#waFloat:hover #waTooltip{opacity:1; transform:translateX(0);}
+#waTooltip::after{content:''; position:absolute; right:-6px; top:50%; transform:translateY(-50%); border:6px solid transparent; border-left-color:var(--primary);}
+
+#toTop{position:fixed; right:24px; bottom:96px; z-index:399; width:44px; height:44px; border-radius:50%; background:var(--primary); color:#fff; border:none; font-size:16px; opacity:0; visibility:hidden; transition:all .3s ease; box-shadow:var(--shadow-soft);}
+#toTop.show{opacity:1; visibility:visible;}
+
+.count-up{display:inline-block;}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:.001ms !important; transition-duration:.001ms !important;}
+}
+</style>
+</head>
+<body>
+
+<div id="preloader"><img src="assets/logo.png" alt="loading"><div class="bar"><span></span></div></div>
+
+<!-- NAV -->
+<header id="siteHeader" class="hero-scheme">
+  <div class="container nav-inner">
+    <a href="#home" class="brand">
+      <img src="assets/logo.png" alt="King of Java Furniture Industries logo">
+      <span class="brand-word">King of Java<small>Furniture Industries</small></span>
+    </a>
+    <nav class="main-links">
+      <a href="#home" data-i18n="nav_home">Home</a>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#products" data-i18n="nav_products">Products</a>
+      <a href="#custom" data-i18n="nav_custom">Custom Manufacturing</a>
+      <a href="#process" data-i18n="nav_process">Process</a>
+      <a href="#industries" data-i18n="nav_industries">Industries</a>
+      <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="langToggle" title="Switch language">EN</button>
+      <button class="icon-btn" id="darkToggle" title="Toggle dark mode">☾</button>
+      <a href="#contact" class="btn btn-primary" style="display:none" id="navQuoteBtn" data-i18n="nav_cta">Request Quotation</a>
+      <button class="hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div id="mobileMenu">
+  <button class="close-mobile" id="closeMobile">&times;</button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#custom">Custom Manufacturing</a>
+  <a href="#process">Manufacturing Process</a>
+  <a href="#industries">Industries</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#blog">Blog</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"><img src="assets/product-natura.jpg" alt="Handcrafted solid wood furniture by King of Java Furniture Industries"></div>
+  <div class="container hero-content">
+    <div class="hero-eyebrow" data-i18n="hero_eyebrow">Made in Indonesia · Export Ready</div>
+    <h1 data-i18n="hero_title">Crafting Nature into <em>Timeless Furniture</em></h1>
+    <p class="sub" data-i18n="hero_sub">Premium handcrafted solid wood furniture, proudly made in Indonesia for residential, hospitality, commercial and export markets.</p>
+    <div class="hero-ctas">
+      <a href="#products" class="btn btn-primary" data-i18n="hero_cta1">Explore Collection</a>
+      <a href="#contact" class="btn btn-outline" data-i18n="hero_cta2">Request Quotation</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- STATS -->
+<section class="stats-strip section-tight" style="padding:52px 0;">
+  <div class="container stats-grid">
+    <div class="reveal"><div class="stat-num"><span class="count-up" data-count="20">0</span>+</div><div class="stat-label" data-i18n="stat1">Years Experience</div></div>
+    <div class="reveal reveal-delay-1"><div class="stat-num"><span class="count-up" data-count="1000">0</span>+</div><div class="stat-label" data-i18n="stat2">Furniture Produced</div></div>
+    <div class="reveal reveal-delay-2"><div class="stat-num"><span class="count-up" data-count="100">0</span>+</div><div class="stat-label" data-i18n="stat3">Business Clients</div></div>
+    <div class="reveal reveal-delay-3"><div class="stat-num">✓</div><div class="stat-label" data-i18n="stat4">Export Ready</div></div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <div class="container">
+    <div class="reveal"><div class="eyebrow" data-i18n="why_eyebrow">Why King of Java</div>
+      <h2 class="section-title" data-i18n="why_title">Built on craftsmanship, engineered for export.</h2>
+      <p class="section-desc" data-i18n="why_desc">Two decades of joinery expertise, quality systems, and logistics experience stand behind every piece that leaves our workshop.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal"><div class="why-icon">◆</div><h4 data-i18n="why1_t">Premium Solid Wood</h4><p data-i18n="why1_d">Kiln-dried teak, mahogany and suar timber selected for grain, density and stability.</p></div>
+      <div class="why-card reveal reveal-delay-1"><div class="why-icon">✎</div><h4 data-i18n="why2_t">Skilled Indonesian Artisans</h4><p data-i18n="why2_d">Generational joinery and carving craft from Central Java's furniture-making heartland.</p></div>
+      <div class="why-card reveal reveal-delay-2"><div class="why-icon">▢</div><h4 data-i18n="why3_t">Custom Manufacturing</h4><p data-i18n="why3_d">OEM and project-based production tailored to your drawings, finishes and volumes.</p></div>
+      <div class="why-card reveal reveal-delay-3"><div class="why-icon">✓</div><h4 data-i18n="why4_t">Quality Control</h4><p data-i18n="why4_d">Multi-stage inspection from raw material intake through final pre-shipment check.</p></div>
+      <div class="why-card reveal"><div class="why-icon">⚓</div><h4 data-i18n="why5_t">Reliable Delivery</h4><p data-i18n="why5_d">Structured production schedules and export documentation handled end to end.</p></div>
+      <div class="why-card reveal reveal-delay-1"><div class="why-icon">%</div><h4 data-i18n="why6_t">Competitive Pricing</h4><p data-i18n="why6_d">Direct-from-workshop pricing with transparent costing for every order size.</p></div>
+      <div class="why-card reveal reveal-delay-2"><div class="why-icon">⌂</div><h4 data-i18n="why7_t">OEM Production</h4><p data-i18n="why7_d">White-label manufacturing for hospitality groups, retailers and distributors.</p></div>
+      <div class="why-card reveal reveal-delay-3"><div class="why-icon">✈</div><h4 data-i18n="why8_t">Export Standard</h4><p data-i18n="why8_d">Fumigated packing, container optimisation and compliant shipping paperwork.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="assets/product-java-heritage.jpg" alt="King of Java Furniture Industries craftsmanship">
+        <div class="float-card"><div class="num">20+</div><div class="lbl" data-i18n="about_float">Years of Joinery Craft</div></div>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="eyebrow" data-i18n="about_eyebrow">Our Story</div>
+        <h2 class="section-title" data-i18n="about_title">A workshop built around the grain of Javanese timber.</h2>
+        <p class="section-desc" data-i18n="about_desc">King of Java Furniture Industries began as a small joinery workshop in West Java and has grown into a full-scale manufacturing house serving residential, hospitality and export clients across the globe — without losing the hand-finished character that started it all.</p>
+        <div class="values-grid">
+          <div class="value-item"><h5 data-i18n="mission_t">Mission</h5><p data-i18n="mission_d">Craft enduring furniture that honours the wood it comes from.</p></div>
+          <div class="value-item"><h5 data-i18n="vision_t">Vision</h5><p data-i18n="vision_d">Be Indonesia's most trusted export furniture partner.</p></div>
+          <div class="value-item"><h5 data-i18n="value1_t">Integrity</h5><p data-i18n="value1_d">Honest material, honest pricing, honest timelines.</p></div>
+          <div class="value-item"><h5 data-i18n="value2_t">Craft</h5><p data-i18n="value2_d">Precision joinery over shortcuts, every time.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="tl-item"><div class="tl-year">2005</div><h5 data-i18n="tl1_t">Workshop founded</h5><p data-i18n="tl1_d">Started as a small solid-wood joinery workshop serving local clients in West Java.</p></div>
+      <div class="tl-item"><div class="tl-year">2012</div><h5 data-i18n="tl2_t">First export orders</h5><p data-i18n="tl2_d">Expanded into container-scale export production for hospitality buyers abroad.</p></div>
+      <div class="tl-item"><div class="tl-year">2018</div><h5 data-i18n="tl3_t">OEM division launched</h5><p data-i18n="tl3_d">Began white-label manufacturing for international furniture and hospitality brands.</p></div>
+      <div class="tl-item"><div class="tl-year">2026</div><h5 data-i18n="tl4_t">Nationwide production scale</h5><p data-i18n="tl4_d">Operating a full manufacturing facility with in-house QC and export logistics.</p></div>
+    </div>
+  </div>
+
+  <div class="philosophy" style="margin-top:100px;">
+    <div class="container">
+      <blockquote data-i18n="philosophy_quote">"Our furniture is more than wood. It is a legacy crafted by skilled Indonesian artisans."</blockquote>
+      <cite data-i18n="philosophy_cite">King of Java Furniture Industries</cite>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="prod_eyebrow">Collections</div>
+      <h2 class="section-title" data-i18n="prod_title">Furniture designed around how spaces are actually used.</h2>
+      <p class="section-desc" data-i18n="prod_desc">Four signature ranges spanning rustic live-edge dining to contemporary café and hospitality furniture — every piece available in custom dimensions and finish.</p>
+    </div>
+    <div class="product-grid">
+
+      <div class="product-card reveal" data-product="natura">
+        <div class="product-media"><span class="product-tag" data-i18n="p1_tag">Live Edge</span><img src="assets/product-natura.jpg" alt="Natura Solid Wood Dining Set"></div>
+        <div class="product-body">
+          <h3 data-i18n="p1_name">Natura Solid Wood Dining Set</h3>
+          <p class="desc" data-i18n="p1_desc">A natural live-edge dining table paired with matching benches — rustic luxury carved from premium solid wood slabs.</p>
+          <div class="app-tags">
+            <span class="app-tag" data-i18n="app_residential">Residential</span>
+            <span class="app-tag" data-i18n="app_restaurant">Restaurant</span>
+            <span class="app-tag" data-i18n="app_villa">Villa</span>
+            <span class="app-tag" data-i18n="app_resort">Resort</span>
+          </div>
+          <button class="btn btn-ghost open-modal" data-target="modal-natura" data-i18n="btn_view">View Details</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-1" data-product="java">
+        <div class="product-media"><span class="product-tag" data-i18n="p2_tag">Contemporary</span><img src="assets/product-java-heritage.jpg" alt="Java Heritage Dining Set"></div>
+        <div class="product-body">
+          <h3 data-i18n="p2_name">Java Heritage Dining Set</h3>
+          <p class="desc" data-i18n="p2_desc">Minimalist, contemporary dining furniture built with premium craftsmanship for modern hospitality interiors.</p>
+          <div class="app-tags">
+            <span class="app-tag" data-i18n="app_apartment">Apartment</span>
+            <span class="app-tag" data-i18n="app_cafe">Cafe</span>
+            <span class="app-tag" data-i18n="app_restaurant">Restaurant</span>
+            <span class="app-tag" data-i18n="app_hotel">Hotel</span>
+          </div>
+          <button class="btn btn-ghost open-modal" data-target="modal-java" data-i18n="btn_view">View Details</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-2" data-product="terra">
+        <div class="product-media"><span class="product-tag" data-i18n="p3_tag">Rustic Modern</span><img src="assets/product-terra-rustic.jpg" alt="Terra Rustic Console Set"></div>
+        <div class="product-body">
+          <h3 data-i18n="p3_name">Terra Rustic Console Set</h3>
+          <p class="desc" data-i18n="p3_desc">A console table with matching stools, finished naturally for a warm, rustic-modern presence in any interior.</p>
+          <div class="app-tags">
+            <span class="app-tag" data-i18n="app_living">Living Room</span>
+            <span class="app-tag" data-i18n="app_villa">Villa</span>
+            <span class="app-tag" data-i18n="app_boutique">Boutique Hotel</span>
+            <span class="app-tag" data-i18n="app_commercial">Commercial Interior</span>
+          </div>
+          <button class="btn btn-ghost open-modal" data-target="modal-terra" data-i18n="btn_view">View Details</button>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-3" data-product="urban">
+        <div class="product-media"><span class="product-tag" data-i18n="p4_tag">Wood + Steel</span><img src="assets/product-urban-loft.jpg" alt="Urban Loft Cafe Set"></div>
+        <div class="product-body">
+          <h3 data-i18n="p4_name">Urban Loft Cafe Set</h3>
+          <p class="desc" data-i18n="p4_desc">Modern café furniture combining solid wood tops with steel-framed seating for high-traffic hospitality spaces.</p>
+          <div class="app-tags">
+            <span class="app-tag" data-i18n="app_coffee">Coffee Shop</span>
+            <span class="app-tag" data-i18n="app_lounge">Hotel Lounge</span>
+            <span class="app-tag" data-i18n="app_restaurant">Restaurant</span>
+            <span class="app-tag" data-i18n="app_hospitality">Hospitality</span>
+          </div>
+          <button class="btn btn-ghost open-modal" data-target="modal-urban" data-i18n="btn_view">View Details</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT MODALS -->
+<div class="modal-overlay" id="modal-natura">
+  <div class="modal-box"><button class="modal-close">&times;</button>
+    <div class="modal-grid">
+      <img src="assets/product-natura.jpg" alt="Natura Solid Wood Dining Set">
+      <div class="modal-content">
+        <div class="eyebrow">Natura Collection</div>
+        <h3 class="font-display" style="font-size:26px;margin:0 0 14px;">Natura Solid Wood Dining Set</h3>
+        <p style="font-size:13.5px;line-height:1.7;color:color-mix(in srgb, var(--text) 65%, transparent);margin:0 0 18px;">A natural live-edge dining table with matching benches, hand-selected for grain character and finished to preserve the timber's natural edge.</p>
+        <div class="spec-row"><span>Wood Types</span><span>Suar, Teak, Mahogany</span></div>
+        <div class="spec-row"><span>Dimensions</span><span>Custom, up to 300cm</span></div>
+        <div class="spec-row"><span>Customization</span><span>Length, leg style, seating count</span></div>
+        <div class="spec-row"><span>Finishing</span><span>Natural oil, matte lacquer, walnut stain</span></div>
+        <div class="form-actions" style="margin-top:24px;">
+          <a href="#contact" class="btn btn-primary close-and-scroll">Inquiry</a>
+          <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20am%20interested%20in%20the%20Natura%20Solid%20Wood%20Dining%20Set." target="_blank" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary);">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-java">
+  <div class="modal-box"><button class="modal-close">&times;</button>
+    <div class="modal-grid">
+      <img src="assets/product-java-heritage.jpg" alt="Java Heritage Dining Set">
+      <div class="modal-content">
+        <div class="eyebrow">Java Heritage Collection</div>
+        <h3 class="font-display" style="font-size:26px;margin:0 0 14px;">Java Heritage Dining Set</h3>
+        <p style="font-size:13.5px;line-height:1.7;color:color-mix(in srgb, var(--text) 65%, transparent);margin:0 0 18px;">Minimalist, contemporary dining furniture built for modern apartments, cafés and restaurants that want warmth without clutter.</p>
+        <div class="spec-row"><span>Wood Types</span><span>Teak, Mahogany, Acacia</span></div>
+        <div class="spec-row"><span>Dimensions</span><span>Standard 4/6/8-seater, custom on request</span></div>
+        <div class="spec-row"><span>Customization</span><span>Tabletop shape, chair upholstery</span></div>
+        <div class="spec-row"><span>Finishing</span><span>Matte lacquer, oak wash, espresso stain</span></div>
+        <div class="form-actions" style="margin-top:24px;">
+          <a href="#contact" class="btn btn-primary close-and-scroll">Inquiry</a>
+          <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20am%20interested%20in%20the%20Java%20Heritage%20Dining%20Set." target="_blank" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary);">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-terra">
+  <div class="modal-box"><button class="modal-close">&times;</button>
+    <div class="modal-grid">
+      <img src="assets/product-terra-rustic.jpg" alt="Terra Rustic Console Set">
+      <div class="modal-content">
+        <div class="eyebrow">Terra Rustic Collection</div>
+        <h3 class="font-display" style="font-size:26px;margin:0 0 14px;">Terra Rustic Console Set</h3>
+        <p style="font-size:13.5px;line-height:1.7;color:color-mix(in srgb, var(--text) 65%, transparent);margin:0 0 18px;">A console table paired with stools, naturally finished for villas, boutique hotels and commercial interiors seeking rustic-modern character.</p>
+        <div class="spec-row"><span>Wood Types</span><span>Reclaimed Teak, Mahogany</span></div>
+        <div class="spec-row"><span>Dimensions</span><span>Custom console length, stool height on request</span></div>
+        <div class="spec-row"><span>Customization</span><span>Iron accents, stool count, edge profile</span></div>
+        <div class="spec-row"><span>Finishing</span><span>Raw natural, weathered wax, dark walnut</span></div>
+        <div class="form-actions" style="margin-top:24px;">
+          <a href="#contact" class="btn btn-primary close-and-scroll">Inquiry</a>
+          <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20am%20interested%20in%20the%20Terra%20Rustic%20Console%20Set." target="_blank" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary);">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-urban">
+  <div class="modal-box"><button class="modal-close">&times;</button>
+    <div class="modal-grid">
+      <img src="assets/product-urban-loft.jpg" alt="Urban Loft Cafe Set">
+      <div class="modal-content">
+        <div class="eyebrow">Urban Loft Collection</div>
+        <h3 class="font-display" style="font-size:26px;margin:0 0 14px;">Urban Loft Cafe Set</h3>
+        <p style="font-size:13.5px;line-height:1.7;color:color-mix(in srgb, var(--text) 65%, transparent);margin:0 0 18px;">Modern café furniture combining solid wood tabletops with steel-framed seating, built for high-traffic hospitality environments.</p>
+        <div class="spec-row"><span>Wood Types</span><span>Teak top with powder-coated steel frame</span></div>
+        <div class="spec-row"><span>Dimensions</span><span>Compact café sizing, custom bar-height on request</span></div>
+        <div class="spec-row"><span>Customization</span><span>Frame colour, seat upholstery, table shape</span></div>
+        <div class="spec-row"><span>Finishing</span><span>Matte lacquer, industrial black frame, brass frame</span></div>
+        <div class="form-actions" style="margin-top:24px;">
+          <a href="#contact" class="btn btn-primary close-and-scroll">Inquiry</a>
+          <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20am%20interested%20in%20the%20Urban%20Loft%20Cafe%20Set." target="_blank" class="btn btn-outline" style="color:var(--primary);border-color:var(--primary);">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CUSTOM MANUFACTURING -->
+<section id="custom" style="background:rgba(75,46,32,.04);">
+  <div class="container">
+    <div class="oem-split">
+      <div class="reveal">
+        <div class="eyebrow" data-i18n="custom_eyebrow">Custom Manufacturing</div>
+        <h2 class="section-title" data-i18n="custom_title">OEM and project manufacturing, built to your drawings.</h2>
+        <p class="section-desc" data-i18n="custom_desc">From single hospitality projects to full OEM production runs, we manufacture furniture for restaurants, villas, apartments, offices and interior design projects — matched to your specification, not a catalogue.</p>
+        <div class="oem-list">
+          <div data-i18n="custom_item1">Hospitality Furniture</div>
+          <div data-i18n="custom_item2">Restaurant Furniture</div>
+          <div data-i18n="custom_item3">Villa Furniture</div>
+          <div data-i18n="custom_item4">Apartment Furniture</div>
+          <div data-i18n="custom_item5">Office Furniture</div>
+          <div data-i18n="custom_item6">Interior Projects</div>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="margin-top:30px;" data-i18n="custom_cta">Start a Custom Project</a>
+      </div>
+      <div class="about-img-wrap reveal reveal-delay-1">
+        <img src="assets/product-terra-rustic.jpg" alt="Custom OEM furniture manufacturing">
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:80px;">
+      <div class="eyebrow" data-i18n="wf_eyebrow">How We Work</div>
+      <h3 class="font-display" style="font-size:26px;margin:0;" data-i18n="wf_title">A seven-step path from brief to delivery.</h3>
+    </div>
+    <div class="workflow reveal">
+      <div class="wf-step"><h5 data-i18n="wf1_t">Consultation</h5><p data-i18n="wf1_d">Understanding your project, volumes and timeline.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf2_t">Design</h5><p data-i18n="wf2_d">Technical drawings and finish samples for approval.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf3_t">Material Selection</h5><p data-i18n="wf3_d">Sourcing timber matched to your durability needs.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf4_t">Production</h5><p data-i18n="wf4_d">Manufacturing at scale in our Java workshop.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf5_t">Quality Control</h5><p data-i18n="wf5_d">Multi-point inspection before packing.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf6_t">Packaging</h5><p data-i18n="wf6_d">Export-grade, fumigated protective packing.</p></div>
+      <div class="wf-step"><h5 data-i18n="wf7_t">Delivery</h5><p data-i18n="wf7_d">Door-to-port or door-to-door logistics support.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MANUFACTURING PROCESS -->
+<section id="process">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="process_eyebrow">Manufacturing Process</div>
+      <h2 class="section-title" data-i18n="process_title">From log to living room, in nine deliberate steps.</h2>
+    </div>
+    <div class="ring-row reveal">
+      <div class="ring-item"><div class="ring">01</div><h5 data-i18n="pr1_t">Material Selection</h5><p data-i18n="pr1_d">Grading timber for grain and structural quality.</p></div>
+      <div class="ring-item"><div class="ring">02</div><h5 data-i18n="pr2_t">Wood Drying</h5><p data-i18n="pr2_d">Kiln-drying to stable, export-ready moisture levels.</p></div>
+      <div class="ring-item"><div class="ring">03</div><h5 data-i18n="pr3_t">Cutting</h5><p data-i18n="pr3_d">Precision milling to design specifications.</p></div>
+      <div class="ring-item"><div class="ring">04</div><h5 data-i18n="pr4_t">Assembly</h5><p data-i18n="pr4_d">Traditional joinery for lasting structural strength.</p></div>
+      <div class="ring-item"><div class="ring">05</div><h5 data-i18n="pr5_t">Sanding</h5><p data-i18n="pr5_d">Hand-sanded surfaces for a refined touch.</p></div>
+      <div class="ring-item"><div class="ring">06</div><h5 data-i18n="pr6_t">Finishing</h5><p data-i18n="pr6_d">Applying oils, stains or lacquer by hand.</p></div>
+      <div class="ring-item"><div class="ring">07</div><h5 data-i18n="pr7_t">Inspection</h5><p data-i18n="pr7_d">Full quality check against approved samples.</p></div>
+      <div class="ring-item"><div class="ring">08</div><h5 data-i18n="pr8_t">Packaging</h5><p data-i18n="pr8_d">Protective, export-standard crating.</p></div>
+      <div class="ring-item"><div class="ring">09</div><h5 data-i18n="pr9_t">Delivery</h5><p data-i18n="pr9_d">Shipped and tracked to destination port.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section id="industries" style="background:rgba(75,46,32,.04);">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="ind_eyebrow">Industries We Serve</div>
+      <h2 class="section-title" data-i18n="ind_title">Furniture for every kind of space.</h2>
+    </div>
+    <div class="industry-grid reveal">
+      <div class="industry-card" style="background-image:url('assets/product-natura.jpg');background-size:cover;background-position:center;"><span data-i18n="ind1">Residential</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-java-heritage.jpg');background-size:cover;background-position:center;"><span data-i18n="ind2">Hotels</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-terra-rustic.jpg');background-size:cover;background-position:center;"><span data-i18n="ind3">Resorts</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-urban-loft.jpg');background-size:cover;background-position:center;"><span data-i18n="ind4">Restaurants</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-natura.jpg');background-size:cover;background-position:center;"><span data-i18n="ind5">Coffee Shops</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-java-heritage.jpg');background-size:cover;background-position:center;"><span data-i18n="ind6">Apartments</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-terra-rustic.jpg');background-size:cover;background-position:center;"><span data-i18n="ind7">Villas</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-urban-loft.jpg');background-size:cover;background-position:center;"><span data-i18n="ind8">Property Developers</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-natura.jpg');background-size:cover;background-position:center;"><span data-i18n="ind9">Interior Designers</span></div>
+      <div class="industry-card" style="background-image:url('assets/product-java-heritage.jpg');background-size:cover;background-position:center;"><span data-i18n="ind10">Commercial Projects</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="gal_eyebrow">Gallery</div>
+      <h2 class="section-title" data-i18n="gal_title">A closer look at finished work.</h2>
+    </div>
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All</button>
+      <button class="filter-btn" data-filter="dining" data-i18n="filter_dining">Dining</button>
+      <button class="filter-btn" data-filter="living" data-i18n="filter_living">Living Room</button>
+      <button class="filter-btn" data-filter="hospitality" data-i18n="filter_hospitality">Hospitality</button>
+      <button class="filter-btn" data-filter="cafe" data-i18n="filter_cafe">Cafe</button>
+      <button class="filter-btn" data-filter="commercial" data-i18n="filter_commercial">Commercial</button>
+    </div>
+    <div class="masonry reveal" id="masonryGrid">
+      <div class="masonry-item" data-cat="dining"><img src="assets/product-natura.jpg" alt="Natura dining set in a garden setting"><div class="cap">Natura Dining — Outdoor</div></div>
+      <div class="masonry-item" data-cat="hospitality cafe"><img src="assets/product-java-heritage.jpg" alt="Java Heritage dining set in a hospitality interior"><div class="cap">Java Heritage — Café Fitout</div></div>
+      <div class="masonry-item" data-cat="living commercial"><img src="assets/product-terra-rustic.jpg" alt="Terra Rustic console in an interior corner"><div class="cap">Terra Rustic — Interior Corner</div></div>
+      <div class="masonry-item" data-cat="cafe commercial"><img src="assets/product-urban-loft.jpg" alt="Urban Loft cafe table setting"><div class="cap">Urban Loft — Window Seating</div></div>
+      <div class="masonry-item" data-cat="dining hospitality"><img src="assets/product-java-heritage.jpg" alt="Dining set close up"><div class="cap">Java Heritage — Detail</div></div>
+      <div class="masonry-item" data-cat="living"><img src="assets/product-natura.jpg" alt="Natura bench detail"><div class="cap">Natura — Bench Detail</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" style="background:rgba(75,46,32,.04);">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="blog_eyebrow">Insights</div>
+      <h2 class="section-title" data-i18n="blog_title">Notes on wood, craft and export.</h2>
+      <p class="section-desc" data-i18n="blog_desc">Full articles are being prepared for launch — here's what's coming to the journal.</p>
+    </div>
+    <div class="blog-grid reveal">
+      <div class="blog-card"><div class="blog-media">Furniture Care</div><div class="blog-body"><span class="blog-cat" data-i18n="blog1_cat">Solid Wood Guide</span><h4 data-i18n="blog1_t">Caring for solid wood furniture in humid climates</h4><p data-i18n="blog1_d">Practical upkeep guidance for tropical and coastal environments.</p></div></div>
+      <div class="blog-card"><div class="blog-media">Hospitality Design</div><div class="blog-body"><span class="blog-cat" data-i18n="blog2_cat">Hospitality Design</span><h4 data-i18n="blog2_t">Choosing furniture that survives high-traffic dining rooms</h4><p data-i18n="blog2_d">What restaurant and café operators should specify first.</p></div></div>
+      <div class="blog-card"><div class="blog-media">Export Furniture</div><div class="blog-body"><span class="blog-cat" data-i18n="blog3_cat">Export Furniture</span><h4 data-i18n="blog3_t">A buyer's guide to sourcing furniture from Indonesia</h4><p data-i18n="blog3_d">MOQs, lead times and container planning explained.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container" style="max-width:820px;">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="faq_eyebrow">FAQ</div>
+      <h2 class="section-title" data-i18n="faq_title">Common questions from our clients.</h2>
+    </div>
+    <div style="margin-top:44px;" class="reveal">
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q1">Can I order custom furniture?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a1">Yes. We accept custom dimensions, wood species, finishes and design references for both single pieces and full projects.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q2">What is the Minimum Order Quantity?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a2">MOQ varies by product and material — contact our sales team with your project details for an exact figure.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q3">Do you provide export services?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a3">Yes, we handle export documentation, fumigated packing and container-load logistics to most destination ports.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q4">What wood materials do you use?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a4">Teak, mahogany, suar and acacia are our core species, with alternatives available on request.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q5">What is the typical lead time?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a5">Lead time depends on order volume and customization — our team confirms an exact schedule at quotation stage.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q6">What are your payment terms?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a6">Standard terms are discussed and confirmed per order during the quotation process.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q7">How is shipping handled?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a7">We coordinate container shipping and can support both FOB and door-to-door arrangements.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq_q8">Is there a warranty?</span><span class="plus">+</span></button>
+        <div class="faq-a"><p data-i18n="faq_a8">Structural warranty terms are provided with every order confirmation and vary by product line.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <h2 data-i18n="cta_title">Let's Build Timeless Furniture Together</h2>
+      <p data-i18n="cta_desc">Whether you need premium solid wood furniture for residential, hospitality, commercial, OEM or export projects, our team is ready to provide customized solutions tailored to your requirements.</p>
+      <div class="cta-btns">
+        <a href="#contact" class="btn" style="background:var(--white);color:var(--primary);" data-i18n="cta_btn1">Request a Free Quotation</a>
+        <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20would%20like%20to%20request%20more%20information%20about%20your%20furniture%20products." target="_blank" class="btn btn-outline" data-i18n="cta_btn2">Chat on WhatsApp</a>
+        <a href="mailto:kingjavaindustries@gmail.com" class="btn btn-outline" data-i18n="cta_btn3">Email Our Sales Team</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background:rgba(75,46,32,.04);">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" data-i18n="contact_eyebrow">Contact</div>
+      <h2 class="section-title" data-i18n="contact_title">Tell us about your project.</h2>
+      <p class="section-desc" data-i18n="contact_desc">Our team responds to every inquiry — domestic or international — within one business day.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-card reveal">
+        <h3 class="font-display" style="font-size:20px;margin:0 0 4px;">PT King of Java Furniture Industries</h3>
+        <p style="font-size:12.5px;color:rgba(255,255,255,.65);margin:0 0 20px;" data-i18n="contact_tagline">Crafting Nature into Timeless Furniture</p>
+
+        <div class="contact-row"><div class="ico">☎</div><div><h6 data-i18n="contact_wa">WhatsApp</h6><a href="https://wa.me/628156275134" target="_blank">+62 815-6275-134</a></div></div>
+        <div class="contact-row"><div class="ico">✉</div><div><h6 data-i18n="contact_email">Email</h6><a href="mailto:kingjavaindustries@gmail.com">kingjavaindustries@gmail.com</a></div></div>
+        <div class="contact-row"><div class="ico">⏱</div><div><h6 data-i18n="contact_hours">Business Hours</h6><p data-i18n="contact_hours_val">Monday – Friday, 08:00 – 17:00 (GMT+7)</p></div></div>
+        <div class="contact-row"><div class="ico">⌂</div><div><h6 data-i18n="contact_address">Address</h6><p data-i18n="contact_address_val">To be announced</p></div></div>
+        <div class="contact-row"><div class="ico">◎</div><div><h6 data-i18n="contact_web">Website</h6><p data-i18n="contact_web_val">Coming soon</p></div></div>
+
+        <div class="map-placeholder" data-i18n="map_placeholder">Google Maps — location to be added</div>
+        <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20would%20like%20to%20request%20more%20information%20about%20your%20furniture%20products." target="_blank" class="btn" style="background:#25D366;color:#fff;margin-top:22px;width:100%;" data-i18n="contact_wa_btn">Chat via WhatsApp</a>
+      </div>
+
+      <form class="reveal reveal-delay-1" id="inquiryForm">
+        <div class="form-grid">
+          <div class="field"><label data-i18n="f_name">Full Name</label><input type="text" required></div>
+          <div class="field"><label data-i18n="f_company">Company Name</label><input type="text"></div>
+          <div class="field"><label data-i18n="f_country">Country</label><input type="text" required></div>
+          <div class="field"><label data-i18n="f_email">Email Address</label><input type="email" required></div>
+          <div class="field"><label data-i18n="f_wa">WhatsApp Number</label><input type="tel"></div>
+          <div class="field">
+            <label data-i18n="f_project">Project Type</label>
+            <select>
+              <option data-i18n="opt_residential">Residential</option>
+              <option data-i18n="opt_hospitality">Hospitality</option>
+              <option data-i18n="opt_oem">OEM / Distributor</option>
+              <option data-i18n="opt_interior">Interior Project</option>
+              <option data-i18n="opt_other">Other</option>
+            </select>
+          </div>
+          <div class="field"><label data-i18n="f_qty">Estimated Quantity</label><input type="text"></div>
+          <div class="field"><label data-i18n="f_wood">Preferred Wood Material</label><input type="text"></div>
+          <div class="field full"><label data-i18n="f_message">Message</label><textarea rows="5" required></textarea></div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" data-i18n="f_send">Send Inquiry</button>
+          <a href="https://wa.me/628156275134?text=Hello%20PT%20King%20of%20Java%20Furniture%20Industries%2C%20I%20would%20like%20to%20request%20more%20information%20about%20your%20furniture%20products." target="_blank" class="btn btn-ghost" data-i18n="f_wa">Chat via WhatsApp</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand" style="margin-bottom:16px;display:inline-flex;">
+        <img src="assets/logo.png" alt="logo" style="height:40px;width:40px;">
+        <span class="brand-word" style="color:#fff;">King of Java<small style="color:var(--accent);">Furniture Industries</small></span>
+      </a>
+      <p data-i18n="footer_desc">Premium handcrafted solid wood furniture, made in Indonesia for residential, hospitality, commercial and export markets.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div>
+      <h6 data-i18n="footer_links">Quick Links</h6>
+      <ul>
+        <li><a href="#about" data-i18n="nav_about">About</a></li>
+        <li><a href="#products" data-i18n="nav_products">Products</a></li>
+        <li><a href="#custom" data-i18n="nav_custom">Custom Manufacturing</a></li>
+        <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h6 data-i18n="footer_contact">Contact</h6>
+      <ul>
+        <li><a href="mailto:kingjavaindustries@gmail.com">kingjavaindustries@gmail.com</a></li>
+        <li><a href="https://wa.me/628156275134" target="_blank">+62 815-6275-134</a></li>
+        <li><a href="#contact" data-i18n="footer_quote">Request Quotation</a></li>
+        <li><a href="https://wa.me/628156275134" target="_blank" data-i18n="footer_wa">Chat via WhatsApp</a></li>
+        <li><a href="mailto:kingjavaindustries@gmail.com" data-i18n="footer_email_btn">Send Email</a></li>
+      </ul>
+    </div>
+    <div>
+      <h6 data-i18n="footer_newsletter">Newsletter</h6>
+      <p style="font-size:13px;color:rgba(255,255,255,.55);margin:0 0 14px;" data-i18n="footer_newsletter_d">Sign up for updates on new collections and export news.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); this.reset(); alert('Thank you for subscribing.');">
+        <input type="email" placeholder="Email address" required>
+        <button type="submit" data-i18n="footer_subscribe">Join</button>
+      </form>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span data-i18n="footer_copyright">© 2026 PT King of Java Furniture Industries. All Rights Reserved.</span>
+    <div class="legal-links">
+      <a href="#" data-i18n="footer_privacy">Privacy Policy</a>
+      <a href="#" data-i18n="footer_terms">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ELEMENTS -->
+<div id="waFloat">
+  <div id="waTooltip" data-i18n="wa_tooltip">Need Custom Furniture? Chat with Us</div>
+  <a id="waBtn" href="https://wa.me/628156275134" target="_blank" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2c-5.514 0-9.997 4.483-9.997 9.997 0 1.764.463 3.489 1.343 5.006L2 22l5.13-1.346a9.964 9.964 0 0 0 4.874 1.243h.004c5.514 0 9.997-4.483 9.997-9.997C21.998 6.483 17.518 2 12.004 2zm0 18.187h-.003a8.16 8.16 0 0 1-4.157-1.14l-.298-.177-3.045.799.813-2.968-.194-.305a8.162 8.162 0 0 1-1.253-4.4c0-4.516 3.674-8.19 8.193-8.19 2.188 0 4.245.853 5.792 2.401a8.132 8.132 0 0 1 2.397 5.795c0 4.516-3.674 8.185-8.245 8.185z"/></svg>
+  </a>
+</div>
+<button id="toTop" aria-label="Back to top">↑</button>
+
+<script>
+// Preloader
+window.addEventListener('load', () => {
+  setTimeout(() => document.getElementById('preloader').classList.add('hide'), 500);
+});
+
+// Nav scroll state
+const header = document.getElementById('siteHeader');
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY > 60;
+  header.classList.toggle('scrolled', scrolled);
+  header.classList.toggle('hero-scheme', !scrolled);
+  document.getElementById('navQuoteBtn').style.display = scrolled ? 'inline-flex' : 'none';
+  toTop.classList.toggle('show', window.scrollY > 500);
+});
+
+// Mobile menu
+const hamburgerBtn = document.getElementById('hamburgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburgerBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+document.getElementById('closeMobile').addEventListener('click', () => mobileMenu.classList.remove('open'));
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+// Back to top
+toTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+// Dark mode
+const darkToggle = document.getElementById('darkToggle');
+darkToggle.addEventListener('click', () => {
+  document.getElementById('htmlRoot').classList.toggle('dark');
+  darkToggle.textContent = document.getElementById('htmlRoot').classList.contains('dark') ? '☀' : '☾';
+});
+
+// Reveal on scroll
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+}, {threshold:0.15});
+revealEls.forEach(el => io.observe(el));
+
+// Counter animation
+const counters = document.querySelectorAll('.count-up');
+const counterIO = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      const target = parseInt(el.dataset.count, 10);
+      let current = 0;
+      const step = Math.max(1, Math.ceil(target / 60));
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = current;
+      }, 25);
+      counterIO.unobserve(el);
+    }
+  });
+}, {threshold:0.5});
+counters.forEach(c => counterIO.observe(c));
+
+// FAQ accordion
+document.querySelectorAll('.faq-item').forEach(item => {
+  const q = item.querySelector('.faq-q');
+  const a = item.querySelector('.faq-a');
+  q.addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-a').style.maxHeight = null; });
+    if (!isOpen) { item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 40 + 'px'; }
+  });
+});
+
+// Gallery filter
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    document.querySelectorAll('.masonry-item').forEach(item => {
+      const cats = item.dataset.cat;
+      item.classList.toggle('hidden-item', !(f === 'all' || cats.includes(f)));
+    });
+  });
+});
+
+// Product modals
+document.querySelectorAll('.open-modal').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.getElementById(btn.dataset.target).classList.add('open');
+  });
+});
+document.querySelectorAll('.modal-close, .modal-overlay').forEach(el => {
+  el.addEventListener('click', (e) => { if (e.target === el) el.closest('.modal-overlay').classList.remove('open'); });
+});
+document.querySelectorAll('.modal-close').forEach(btn => {
+  btn.addEventListener('click', () => btn.closest('.modal-overlay').classList.remove('open'));
+});
+document.querySelectorAll('.close-and-scroll').forEach(a => {
+  a.addEventListener('click', () => document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('open')));
+});
+
+// Contact form (static demo)
+document.getElementById('inquiryForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  alert(currentLang === 'id' ? 'Terima kasih! Tim kami akan segera menghubungi Anda.' : 'Thank you! Our team will be in touch shortly.');
+  e.target.reset();
+});
+
+// ---------- Language toggle (EN / Bahasa Indonesia) ----------
+const translations = {
+  nav_home:{id:'Beranda'}, nav_about:{id:'Tentang'}, nav_products:{id:'Produk'}, nav_custom:{id:'Manufaktur Kustom'},
+  nav_process:{id:'Proses'}, nav_industries:{id:'Industri'}, nav_gallery:{id:'Galeri'}, nav_faq:{id:'FAQ'}, nav_contact:{id:'Kontak'},
+  nav_cta:{id:'Minta Penawaran'},
+  hero_eyebrow:{id:'Dibuat di Indonesia · Siap Ekspor'},
+  hero_title:{id:'Mengukir Alam Menjadi <em>Furnitur Abadi</em>'},
+  hero_sub:{id:'Furnitur kayu solid premium buatan tangan, diproduksi di Indonesia untuk pasar residensial, hospitality, komersial, dan ekspor.'},
+  hero_cta1:{id:'Jelajahi Koleksi'}, hero_cta2:{id:'Minta Penawaran'},
+  stat1:{id:'Tahun Pengalaman'}, stat2:{id:'Furnitur Diproduksi'}, stat3:{id:'Klien Bisnis'}, stat4:{id:'Siap Ekspor'},
+  why_eyebrow:{id:'Mengapa King of Java'}, why_title:{id:'Dibangun di atas keahlian, dirancang untuk ekspor.'},
+  why_desc:{id:'Dua dekade keahlian pertukangan, sistem kualitas, dan pengalaman logistik mendukung setiap produk yang keluar dari bengkel kami.'},
+  why1_t:{id:'Kayu Solid Premium'}, why1_d:{id:'Kayu jati, mahoni, dan trembesi kiln-dried terpilih untuk serat, kepadatan, dan stabilitas.'},
+  why2_t:{id:'Pengrajin Indonesia Berpengalaman'}, why2_d:{id:'Keahlian pertukangan dan ukiran turun-temurun dari jantung industri furnitur Jawa Tengah.'},
+  why3_t:{id:'Manufaktur Kustom'}, why3_d:{id:'Produksi OEM dan berbasis proyek sesuai gambar, finishing, dan volume Anda.'},
+  why4_t:{id:'Kontrol Kualitas'}, why4_d:{id:'Inspeksi multi-tahap dari penerimaan bahan baku hingga pemeriksaan pra-pengiriman.'},
+  why5_t:{id:'Pengiriman Andal'}, why5_d:{id:'Jadwal produksi terstruktur dan dokumentasi ekspor ditangani menyeluruh.'},
+  why6_t:{id:'Harga Kompetitif'}, why6_d:{id:'Harga langsung dari bengkel dengan perhitungan biaya transparan untuk semua skala pesanan.'},
+  why7_t:{id:'Produksi OEM'}, why7_d:{id:'Manufaktur white-label untuk grup hospitality, retailer, dan distributor.'},
+  why8_t:{id:'Standar Ekspor'}, why8_d:{id:'Pengemasan fumigasi, optimasi kontainer, dan dokumen pengiriman yang sesuai standar.'},
+  about_eyebrow:{id:'Kisah Kami'}, about_float:{id:'Tahun Keahlian Pertukangan'},
+  about_title:{id:'Bengkel yang dibangun mengikuti serat kayu Jawa.'},
+  about_desc:{id:'King of Java Furniture Industries dimulai sebagai bengkel pertukangan kecil di Jawa Barat dan berkembang menjadi rumah manufaktur skala penuh yang melayani klien residensial, hospitality, dan ekspor di seluruh dunia — tanpa kehilangan karakter buatan tangan yang menjadi awal mulanya.'},
+  mission_t:{id:'Misi'}, mission_d:{id:'Menciptakan furnitur tahan lama yang menghormati kayu asalnya.'},
+  vision_t:{id:'Visi'}, vision_d:{id:'Menjadi mitra furnitur ekspor paling terpercaya di Indonesia.'},
+  value1_t:{id:'Integritas'}, value1_d:{id:'Bahan jujur, harga jujur, tenggat waktu jujur.'},
+  value2_t:{id:'Keahlian'}, value2_d:{id:'Sambungan presisi, bukan jalan pintas, setiap saat.'},
+  tl1_t:{id:'Bengkel didirikan'}, tl1_d:{id:'Dimulai sebagai bengkel pertukangan kayu solid kecil yang melayani klien lokal di Jawa Barat.'},
+  tl2_t:{id:'Pesanan ekspor pertama'}, tl2_d:{id:'Berkembang ke produksi ekspor skala kontainer untuk pembeli hospitality luar negeri.'},
+  tl3_t:{id:'Divisi OEM diluncurkan'}, tl3_d:{id:'Memulai manufaktur white-label untuk merek furnitur dan hospitality internasional.'},
+  tl4_t:{id:'Skala produksi nasional'}, tl4_d:{id:'Mengoperasikan fasilitas manufaktur penuh dengan QC internal dan logistik ekspor.'},
+  philosophy_quote:{id:'"Furnitur kami lebih dari sekadar kayu. Ia adalah warisan yang diciptakan oleh pengrajin Indonesia yang terampil."'},
+  philosophy_cite:{id:'King of Java Furniture Industries'},
+  prod_eyebrow:{id:'Koleksi'}, prod_title:{id:'Furnitur yang dirancang sesuai cara ruang benar-benar digunakan.'},
+  prod_desc:{id:'Empat koleksi unggulan mulai dari meja makan live-edge rustic hingga furnitur kafe dan hospitality kontemporer — setiap produk tersedia dalam dimensi dan finishing kustom.'},
+  p1_tag:{id:'Live Edge'}, p1_name:{id:'Set Makan Kayu Solid Natura'}, p1_desc:{id:'Meja makan live-edge alami dipadukan dengan bangku serasi — kemewahan rustic dari lempengan kayu solid premium.'},
+  p2_tag:{id:'Kontemporer'}, p2_name:{id:'Set Makan Java Heritage'}, p2_desc:{id:'Furnitur makan kontemporer minimalis dengan keahlian premium untuk interior hospitality modern.'},
+  p3_tag:{id:'Rustic Modern'}, p3_name:{id:'Set Konsol Terra Rustic'}, p3_desc:{id:'Meja konsol dengan bangku serasi, finishing alami untuk kehadiran rustic-modern yang hangat.'},
+  p4_tag:{id:'Kayu + Besi'}, p4_name:{id:'Set Kafe Urban Loft'}, p4_desc:{id:'Furnitur kafe modern memadukan permukaan kayu solid dengan rangka besi untuk ruang hospitality padat aktivitas.'},
+  app_residential:{id:'Residensial'}, app_restaurant:{id:'Restoran'}, app_villa:{id:'Vila'}, app_resort:{id:'Resor'},
+  app_apartment:{id:'Apartemen'}, app_cafe:{id:'Kafe'}, app_hotel:{id:'Hotel'},
+  app_living:{id:'Ruang Keluarga'}, app_boutique:{id:'Butik Hotel'}, app_commercial:{id:'Interior Komersial'},
+  app_coffee:{id:'Kedai Kopi'}, app_lounge:{id:'Lounge Hotel'}, app_hospitality:{id:'Hospitality'},
+  btn_view:{id:'Lihat Detail'},
+  custom_eyebrow:{id:'Manufaktur Kustom'}, custom_title:{id:'Produksi OEM dan proyek, sesuai gambar Anda.'},
+  custom_desc:{id:'Dari proyek hospitality tunggal hingga produksi OEM skala penuh, kami memproduksi furnitur untuk restoran, vila, apartemen, kantor, dan proyek desain interior — sesuai spesifikasi Anda, bukan katalog.'},
+  custom_item1:{id:'Furnitur Hospitality'}, custom_item2:{id:'Furnitur Restoran'}, custom_item3:{id:'Furnitur Vila'},
+  custom_item4:{id:'Furnitur Apartemen'}, custom_item5:{id:'Furnitur Kantor'}, custom_item6:{id:'Proyek Interior'},
+  custom_cta:{id:'Mulai Proyek Kustom'},
+  wf_eyebrow:{id:'Cara Kami Bekerja'}, wf_title:{id:'Tujuh langkah dari brief hingga pengiriman.'},
+  wf1_t:{id:'Konsultasi'}, wf1_d:{id:'Memahami proyek, volume, dan tenggat waktu Anda.'},
+  wf2_t:{id:'Desain'}, wf2_d:{id:'Gambar teknis dan sampel finishing untuk persetujuan.'},
+  wf3_t:{id:'Pemilihan Material'}, wf3_d:{id:'Sourcing kayu sesuai kebutuhan durabilitas Anda.'},
+  wf4_t:{id:'Produksi'}, wf4_d:{id:'Manufaktur skala penuh di bengkel Jawa kami.'},
+  wf5_t:{id:'Kontrol Kualitas'}, wf5_d:{id:'Inspeksi multi-titik sebelum pengemasan.'},
+  wf6_t:{id:'Pengemasan'}, wf6_d:{id:'Pengemasan pelindung standar ekspor, difumigasi.'},
+  wf7_t:{id:'Pengiriman'}, wf7_d:{id:'Dukungan logistik door-to-port atau door-to-door.'},
+  process_eyebrow:{id:'Proses Manufaktur'}, process_title:{id:'Dari kayu gelondongan hingga ruang keluarga, dalam sembilan langkah cermat.'},
+  pr1_t:{id:'Pemilihan Material'}, pr1_d:{id:'Menyortir kayu berdasarkan serat dan kualitas struktural.'},
+  pr2_t:{id:'Pengeringan Kayu'}, pr2_d:{id:'Pengeringan kiln hingga kadar air siap ekspor yang stabil.'},
+  pr3_t:{id:'Pemotongan'}, pr3_d:{id:'Penggergajian presisi sesuai spesifikasi desain.'},
+  pr4_t:{id:'Perakitan'}, pr4_d:{id:'Sambungan tradisional untuk kekuatan struktural tahan lama.'},
+  pr5_t:{id:'Pengamplasan'}, pr5_d:{id:'Permukaan diamplas tangan untuk hasil halus.'},
+  pr6_t:{id:'Finishing'}, pr6_d:{id:'Aplikasi minyak, pewarna, atau lacquer secara manual.'},
+  pr7_t:{id:'Inspeksi'}, pr7_d:{id:'Pemeriksaan kualitas penuh terhadap sampel yang disetujui.'},
+  pr8_t:{id:'Pengemasan'}, pr8_d:{id:'Pengemasan pelindung standar ekspor.'},
+  pr9_t:{id:'Pengiriman'}, pr9_d:{id:'Dikirim dan dilacak hingga pelabuhan tujuan.'},
+  ind_eyebrow:{id:'Industri Yang Kami Layani'}, ind_title:{id:'Furnitur untuk setiap jenis ruang.'},
+  ind1:{id:'Residensial'}, ind2:{id:'Hotel'}, ind3:{id:'Resor'}, ind4:{id:'Restoran'}, ind5:{id:'Kedai Kopi'},
+  ind6:{id:'Apartemen'}, ind7:{id:'Vila'}, ind8:{id:'Pengembang Properti'}, ind9:{id:'Desainer Interior'}, ind10:{id:'Proyek Komersial'},
+  gal_eyebrow:{id:'Galeri'}, gal_title:{id:'Lihat lebih dekat hasil pengerjaan kami.'},
+  filter_all:{id:'Semua'}, filter_dining:{id:'Makan'}, filter_living:{id:'Ruang Keluarga'}, filter_hospitality:{id:'Hospitality'}, filter_cafe:{id:'Kafe'}, filter_commercial:{id:'Komersial'},
+  blog_eyebrow:{id:'Wawasan'}, blog_title:{id:'Catatan seputar kayu, keahlian, dan ekspor.'}, blog_desc:{id:'Artikel lengkap sedang disiapkan untuk peluncuran — berikut yang akan hadir di jurnal kami.'},
+  blog1_cat:{id:'Panduan Kayu Solid'}, blog1_t:{id:'Merawat furnitur kayu solid di iklim lembap'}, blog1_d:{id:'Panduan perawatan praktis untuk lingkungan tropis dan pesisir.'},
+  blog2_cat:{id:'Desain Hospitality'}, blog2_t:{id:'Memilih furnitur yang tahan di ruang makan padat aktivitas'}, blog2_d:{id:'Yang perlu diperhatikan pertama oleh operator restoran dan kafe.'},
+  blog3_cat:{id:'Furnitur Ekspor'}, blog3_t:{id:'Panduan pembeli untuk sourcing furnitur dari Indonesia'}, blog3_d:{id:'Penjelasan MOQ, lead time, dan perencanaan kontainer.'},
+  faq_eyebrow:{id:'FAQ'}, faq_title:{id:'Pertanyaan umum dari klien kami.'},
+  faq_q1:{id:'Bisakah saya memesan furnitur kustom?'}, faq_a1:{id:'Ya. Kami menerima dimensi kustom, jenis kayu, finishing, dan referensi desain untuk produk satuan maupun proyek penuh.'},
+  faq_q2:{id:'Berapa Minimum Order Quantity?'}, faq_a2:{id:'MOQ bervariasi tergantung produk dan material — hubungi tim sales kami dengan detail proyek Anda untuk angka pastinya.'},
+  faq_q3:{id:'Apakah tersedia layanan ekspor?'}, faq_a3:{id:'Ya, kami menangani dokumentasi ekspor, pengemasan fumigasi, dan logistik kontainer ke sebagian besar pelabuhan tujuan.'},
+  faq_q4:{id:'Material kayu apa yang digunakan?'}, faq_a4:{id:'Jati, mahoni, trembesi, dan akasia adalah spesies utama kami, dengan alternatif tersedia atas permintaan.'},
+  faq_q5:{id:'Berapa lead time biasanya?'}, faq_a5:{id:'Lead time tergantung volume pesanan dan kustomisasi — tim kami mengonfirmasi jadwal pasti saat tahap penawaran.'},
+  faq_q6:{id:'Bagaimana ketentuan pembayaran?'}, faq_a6:{id:'Ketentuan standar dibahas dan dikonfirmasi per pesanan selama proses penawaran.'},
+  faq_q7:{id:'Bagaimana pengiriman ditangani?'}, faq_a7:{id:'Kami mengoordinasikan pengiriman kontainer dan dapat mendukung pengaturan FOB maupun door-to-door.'},
+  faq_q8:{id:'Apakah ada garansi?'}, faq_a8:{id:'Ketentuan garansi struktural diberikan pada setiap konfirmasi pesanan dan bervariasi menurut lini produk.'},
+  cta_title:{id:'Mari Bangun Furnitur Abadi Bersama'},
+  cta_desc:{id:'Baik Anda membutuhkan furnitur kayu solid premium untuk proyek residensial, hospitality, komersial, OEM, atau ekspor, tim kami siap memberikan solusi kustom sesuai kebutuhan Anda.'},
+  cta_btn1:{id:'Minta Penawaran Gratis'}, cta_btn2:{id:'Chat via WhatsApp'}, cta_btn3:{id:'Email Tim Sales Kami'},
+  contact_eyebrow:{id:'Kontak'}, contact_title:{id:'Ceritakan tentang proyek Anda.'}, contact_desc:{id:'Tim kami merespons setiap pertanyaan — domestik maupun internasional — dalam satu hari kerja.'},
+  contact_tagline:{id:'Mengukir Alam Menjadi Furnitur Abadi'},
+  contact_wa:{id:'WhatsApp'}, contact_email:{id:'Email'}, contact_hours:{id:'Jam Operasional'}, contact_hours_val:{id:'Senin – Jumat, 08:00 – 17:00 (GMT+7)'},
+  contact_address:{id:'Alamat'}, contact_address_val:{id:'Akan diumumkan'}, contact_web:{id:'Website'}, contact_web_val:{id:'Segera hadir'},
+  map_placeholder:{id:'Google Maps — lokasi akan ditambahkan'}, contact_wa_btn:{id:'Chat via WhatsApp'},
+  f_name:{id:'Nama Lengkap'}, f_company:{id:'Nama Perusahaan'}, f_country:{id:'Negara'}, f_email:{id:'Alamat Email'}, f_wa:{id:'Nomor WhatsApp'},
+  f_project:{id:'Jenis Proyek'}, f_qty:{id:'Estimasi Jumlah'}, f_wood:{id:'Material Kayu Pilihan'}, f_message:{id:'Pesan'}, f_send:{id:'Kirim Pertanyaan'},
+  opt_residential:{id:'Residensial'}, opt_hospitality:{id:'Hospitality'}, opt_oem:{id:'OEM / Distributor'}, opt_interior:{id:'Proyek Interior'}, opt_other:{id:'Lainnya'},
+  footer_desc:{id:'Furnitur kayu solid premium buatan tangan, diproduksi di Indonesia untuk pasar residensial, hospitality, komersial, dan ekspor.'},
+  footer_links:{id:'Tautan Cepat'}, footer_contact:{id:'Kontak'}, footer_quote:{id:'Minta Penawaran'}, footer_wa:{id:'Chat via WhatsApp'}, footer_email_btn:{id:'Kirim Email'},
+  footer_newsletter:{id:'Newsletter'}, footer_newsletter_d:{id:'Berlangganan untuk info koleksi baru dan berita ekspor.'}, footer_subscribe:{id:'Gabung'},
+  footer_copyright:{id:'© 2026 PT King of Java Furniture Industries. Hak Cipta Dilindungi.'}, footer_privacy:{id:'Kebijakan Privasi'}, footer_terms:{id:'Ketentuan'},
+  wa_tooltip:{id:'Butuh Furnitur Kustom? Chat dengan Kami'}
+};
+let currentLang = 'en';
+const originalText = {};
+document.querySelectorAll('[data-i18n]').forEach(el => { originalText[el] = el.innerHTML; });
+document.getElementById('langToggle').addEventListener('click', () => {
+  currentLang = currentLang === 'en' ? 'id' : 'en';
+  document.getElementById('langToggle').textContent = currentLang === 'en' ? 'EN' : 'ID';
+  document.documentElement.lang = currentLang;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (currentLang === 'id' && translations[key] && translations[key].id) {
+      el.innerHTML = translations[key].id;
+    } else {
+      el.innerHTML = originalText[el];
+    }
+  });
+});
+</script>
+</body>
+</html>
